@@ -1,0 +1,136 @@
+.head{
+    text-align: center;
+    color: rgb(10, 192, 162);
+    margin-top: 25px;
+}
+
+.todo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputbox{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 25px;
+}
+
+.inputbox input{
+    border-color: rgb(164, 240, 227);
+    border-radius: 5px;
+    width: 250px;
+    border-style:groove;
+    outline: none;
+    
+}
+
+.description{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 25px;
+}
+
+.description input{
+    border-color:rgb(164, 240, 227);
+    border-radius: 5px;
+    width: 250px;
+    border-style:groove;
+    outline: none;
+}
+
+
+.title{
+    display: flex;
+    text-align: center;
+    justify-content:space-around;
+}
+
+.primaryBtn{
+    border-radius: 5px;
+    background-color: rgb(10, 192, 162);
+    border: none;
+    color: white;
+    width: 150px;
+    outline: none;
+}
+
+.primaryBtn:hover{
+    background-color: rgb(10, 160, 142);
+}
+
+.container{
+    display: flex;
+    align-items: flex-start;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    justify-content:flex-start;   
+}
+
+.Btn{
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    border-radius: 5px;
+}
+
+.Edit{
+    border-radius: 5px;
+    background-color: rgb(10, 192, 162);
+    border: none;
+    color: white;
+    width: 80px;
+    outline: none;
+    
+}
+.Edit:hover{
+    background-color: rgb(10, 160, 142);
+}
+
+.Delete{
+    border-radius: 5px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    width: 80px;
+    outline: none;
+}
+.Delete:hover{
+    background-color: red;
+}
+
+.Card{
+   display: flex;
+   margin-right: 20px;
+   background-color:rgb(177, 235, 207); 
+   border-radius: 5px;
+}
+
+.dropdown{
+    display: flex;
+    justify-content:left;
+}
+
+/* .active{
+    
+} */
+
+/* .mani{
+   display:grid; 
+   align-content: center;
+} */
+
+.toggle{
+    height: 28px;
+    border: 5px;
+}
+    
